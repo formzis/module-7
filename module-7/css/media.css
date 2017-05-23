@@ -1,0 +1,273 @@
+/* @media (max-width: 768px) { */
+@media (max-width: 940px) {
+	.wrapper {
+		max-width: 714px;
+	}
+	.menu {
+		float: left;
+		margin-bottom: 71px;
+	}
+		
+	.header-section {
+		margin-bottom: 154px;
+	}
+	.header-section_left > h1 {
+		font-size: 46px;
+	}
+	.header-section_left > h2 {
+		margin-top: 4px;
+		font-size: 22px;
+	}
+	.header-section_left {
+		margin-top: 96px;
+		margin-right: 65px;
+		padding-left: 24px;
+		width: 44%;
+	}
+	.header-section_right > img {
+		top: -23px;
+		left: 25px;
+	}
+		
+	.article-sec01__header {
+		font-size: 22px;
+	}
+	.article-sec01__img_02 {
+		background: url(../img/sprite_main01_icon.png) 0 0 no-repeat;
+	}
+	.article-sec01__img_03 {
+		background: url(../img/sprite_main01_icon.png) 0 0 no-repeat;
+	}
+	.main02-box02 > a {
+		margin-right: -10px;
+	}
+	.main04 {
+		padding-top: 101px;
+		padding-bottom: 91px;
+	}
+	.article-sec04__header_size-48 {
+		display: none;
+	}
+	.article-sec04__copyright {
+		display: none;
+	}
+	.article-sec04__header_disp-768 {
+		display: block;
+	}
+	.article-sec04__header {
+		font-size: 24px;
+	}
+	
+	.footer-text {
+		margin-top: 56px;
+		margin-bottom: 84px;
+		margin-right: -14px;
+	}
+}
+
+
+
+
+/* @media (max-width: 480px) { */
+@media (max-width: 748px) {
+	.wrapper {
+		max-width: 440px;
+	}
+
+	.logo {
+		float: none;
+		margin: auto;
+		width: 140px;
+	}
+	.menu {
+		display: none;	
+	}
+	
+	.menu_toggle {
+		display: block;
+	}
+	nav {
+		width: 100%;
+		position: absolute;
+		right: 0;
+		left: 0;
+
+		z-index: 10;
+	}
+	.menu {
+		margin: 0 auto;
+		width: 240px;
+		float: none;
+		padding-bottom: 8px;
+		border-radius: 10px;
+		border: 1px solid black;
+		background: rgba(54, 41, 62, 0.8);
+		box-shadow: 2px 2px 16px rgb(0, 0, 0);
+	}
+	.menu__item {
+		float: none;
+		text-align: center;
+		margin-top: 12px;
+		margin-left: 0px;
+	}
+	
+	
+	.header-section {
+		margin-top: 84px;
+		margin-bottom: 99px;
+		height: 246px;
+	}
+	.header-section_left {
+		margin-top: 91px;
+		width: 54%;
+	}	
+	.header-section_left > h1 {
+		font-size: 34px;
+	}
+	.header-section_left > h2 {
+		margin-top: 0px;
+		font-size: 17px;
+	}	
+	.header-section_left > p {
+		display: none;
+	}		
+	.header-section_right > img {
+		top: -9px;
+		left: -81px;
+		width: 192px;
+	}
+	.main01 {
+		padding-bottom: 45px;
+	}
+	.article-sec01 {
+		padding-bottom: 52px;
+		float: none;
+		width: 100%;
+	}
+	.article-sec01__header {
+		margin-left: 66px;
+	}
+	.article-sec01__paragraph {
+		
+		margin-left: 66px;
+		
+	}
+	.article-sec01__link {
+		margin-top: 8px;
+		margin-right: -3px;
+	}
+	.main02 {
+		padding-top: 69px;
+		padding-left: 21px;
+	}
+	.main02-box01 {
+		width: 94%;
+		margin-bottom: 62px;
+		
+		
+	}
+	.main02-box01 > figure {
+		display: none;
+	}
+	.main02-box02 {
+		padding-left: 63px;
+		width: 100%;
+	}
+	.main02-box02 > a {
+		margin-right: 41px;
+	}
+	.main03__out-box {
+		width: 1.22%;
+		margin-left: 16%;
+		margin-right: 16%;
+}
+
+
+	.main04 {
+		padding-top: 73px;
+		padding-bottom: 32px;
+	}
+	.article-sec04 {
+		float: none;
+		margin-left: 47px;
+		margin-bottom: 57px;
+		width: 84%;
+		max-height: 130px;
+		
+	}
+	.menu_bottom {
+		margin-left: -15px;
+	}
+	.menu__item_size-m {
+		margin-left: 15px;
+	}
+	.footer-text {
+		margin-top: -10px;
+		margin-bottom: 84px;
+		margin-right: 142px;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/* @media (max-width: 320px) { */
+@media (max-width: 460px) {
+		.wrapper {
+		max-width: 280px;
+	}	
+	.header-section_right {
+		display: none;
+	}
+	
+	.header-section_left {
+	    padding-left: 54px;
+		width: 100%;
+	}
+	.header-section {
+		margin-bottom: 67px;
+	}
+	.article-sec01__paragraph {
+		max-height: 72px;
+		overflow: hidden;
+	}
+	.main02-box01 {
+		padding-top: 23px;
+		padding-bottom: 17px;
+		padding-left: 33px;
+	}
+	.main02-box01 > h2 {
+		margin-right: 85px;
+		font-size: 23px;
+	}
+	.main02-box02 {
+		padding-left: 0;
+	}
+	.main03 {
+		padding-bottom: 52px;
+		padding-top: 24px;
+	}
+	.main03__out-box {
+		width: 1.88%;
+		margin-left: 24%;
+		margin-right: 24%;
+	}
+	.main04 {
+	display: none;
+	}
+	.menu_bottom {
+	display: none;
+	}
+	.footer-text {
+		margin-top: -5px;
+		margin-bottom: 145px;
+		margin-right: 62px;
+	}
+}
